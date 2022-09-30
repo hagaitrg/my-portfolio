@@ -9,7 +9,7 @@ export default function About() {
                 About
             </p>
             <p className='text-base sm:text-xl text-center text-gray-600 leading-relaxed mt-4'>
-                Someone who really loves technology and software development. Also love to learn new things every day. And a long life learner
+                Someone who really loves technology and software <span className='bg-sky-600 px-2 rounded-xl text-white'>development</span> . Also love to learn <span className='bg-sky-600 px-2 rounded-xl text-white'>new</span> things every day. And a long life <span className='bg-sky-600 px-2 rounded-xl text-white'>learner</span>
             </p>
             <ScrollIntoView selector="#skills">
                 <div className="mx-auto p-20">

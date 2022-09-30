@@ -32,7 +32,7 @@ export default function Footer() {
             </div>
             <div className='flex justify-center mt-4'>
                 <p className='text-black mb-4'>
-                    Made with <span className="mr-2" role="link" aria-label="heart">💙</span> by <a className="text-blue-500 hover:underline" href="mailto:me.disahagait@gmail.com">Hagai Tarigan</a>
+                    Made with <span role="link" aria-label="heart">💙</span> by <a className="text-blue-500 hover:underline" href="mailto:me.disahagait@gmail.com">Hagai Tarigan</a>
                 </p>
             </div>
         </div>

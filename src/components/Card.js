@@ -1,12 +1,13 @@
 import React from 'react'
 import profile from './images/profile.jpeg'
 import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
+import './styles/Card.css'
 
 export default function Card() {
     return (
         <div className='w-full'>
-            <div className='flex flex-col justify-center max-w-md mx-auto bg-white shadow-xl rounded-xl p-5'>
-                <img className='w-32 mx-auto shadow-xl rounded-full drop-shadow-sm' src={profile} alt='profile' />
+            <div className='flex flex-col justify-center max-w-md mx-auto bg-sky-300 rounded-xl  p-5 profile-card'>
+                <img className='w-32 mx-auto rounded-full drop-shadow-sm' src={profile} alt='profile' />
                 <div className='text-center mt-5 '>
                     <p className="text-xl sm:text-2xl text-gray-900">
                         Disa Hagai Tarigan
