@@ -12,6 +12,7 @@ import 'aos/dist/aos.css'
 function App() 
 {
   useEffect(() => {
+    document.title="Hagaitrg"
     Aos.init({
       once:true
     })
